@@ -1,0 +1,20 @@
+[
+  {
+    "name": "index.default",
+    "path": "/index.default",
+    "component": "/mnt/c/programs/webEditor/pages/index.default.vue",
+    "chunkName": "pages/index.default"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/mnt/c/programs/webEditor/pages/inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/mnt/c/programs/webEditor/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
