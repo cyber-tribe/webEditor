@@ -1,5 +1,6 @@
 <template>
   <div>
+    <term/>
     <v-btn @click="add()">add</v-btn>
   <editor v-for="i in editors" :key="i" :id="i" @close="closeEditor"/>
   {{editors}}
@@ -8,10 +9,12 @@
 
 <script>
 import Editor from '~/components/Editor.vue'
+import Term from '~/components/Terminal.vue'
 
 export default {
   components: {
-    Editor
+    Editor,
+    Term
   },
   layout:"editor",
   data(){
