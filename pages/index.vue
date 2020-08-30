@@ -13,6 +13,7 @@ export default {
   components: {
     Editor
   },
+  layout:"editor",
   data(){
     return{
       editors:[]
